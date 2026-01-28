@@ -22,8 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f843e1bd-82f4-4db8-bae4-5443586cd734" name="Default" comment="Finished question 2">
-      <change beforePath="$PROJECT_DIR$/src/main/java/week_1/Question_3_NASA_Astronauts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_1/Question_3_NASA_Astronauts.java" afterDir="false" />
+    <list default="true" id="f843e1bd-82f4-4db8-bae4-5443586cd734" name="Default" comment="Finished question 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week_1/Question_4_Mail_Prices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_1/Question_4_Mail_Prices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,8 +96,11 @@
     "Application.Question_1_Miles_From_MCTC.executor": "Run",
     "Application.Question_2_Quiz_Question.executor": "Run",
     "Application.Question_3_NASA_Astronauts.executor": "Run",
+    "Application.Question_4_Mail_Prices.executor": "Run",
     "JUnit.Question_1_MilesFromMCTC_Test.executor": "Run",
     "JUnit.Question_2_QuizQuestion_Test.executor": "Run",
+    "JUnit.Question_3_NASAAstronaut_Test.executor": "Run",
+    "JUnit.Question_4_MailPrices_Test.executor": "Run",
     "JUnit.week_1 in Java_Auto_Grader.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -455,7 +459,7 @@
       <workItem from="1631713606818" duration="234000" />
       <workItem from="1633011427648" duration="1504000" />
       <workItem from="1644532948874" duration="709000" />
-      <workItem from="1769637657936" duration="1408000" />
+      <workItem from="1769637657936" duration="2528000" />
     </task>
     <task id="LOCAL-00001" summary="Comments">
       <created>1496164236471</created>
@@ -711,7 +715,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769638831949</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Finished question 3">
+      <option name="closed" value="true" />
+      <created>1769639228517</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1769639228517</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -738,7 +750,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Renamed test package" />
     <MESSAGE value="Added test file names to grade schema" />
     <MESSAGE value="Week 1 questions .md" />
     <MESSAGE value="Question 0" />
@@ -763,7 +774,8 @@
     <MESSAGE value="Split tests into more smaller tests, ensure using global variables in code" />
     <MESSAGE value="Finished question 1" />
     <MESSAGE value="Finished question 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished question 2" />
+    <MESSAGE value="Finished question 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished question 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

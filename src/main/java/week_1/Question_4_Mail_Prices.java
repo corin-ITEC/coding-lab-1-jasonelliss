@@ -61,9 +61,15 @@ public class Question_4_Mail_Prices {
         * and the current non-machinable surcharge.
         */
 
-        //TODO delete this line and replace with your own code
-        return 0;   // This is the wrong answer, but Java requires us to return something.
-
+//        create if statement to check if the package is rectangular and is flat
+        if (isRectangle == true && isFlat == true) {
+//            if the package meets both criteria return the machinable letter price
+            return MACHINABLE_LETTER_PRICE;
+//            if the package does not meet either of the above conditions it needs a surcharge added
+        } else {
+//            return the machinable letter price plus the surcharge
+            return MACHINABLE_LETTER_PRICE + NON_MACHINABLE_SURCHARGE;
+        }
     }
     
   

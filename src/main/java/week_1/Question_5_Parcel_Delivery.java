@@ -49,7 +49,15 @@ public class Question_5_Parcel_Delivery {
         // TODO return false if parcel weight is more than MAX_WEIGHT. Use the MAX_WEIGHT variable in this code
         // TODO return true if the parcel weight is more than 0 and less than or equal to MAX_WEIGHT. Use the MAX_WEIGHT variable in this code
 
-        return false;  // Replace this with your code
+//        use if statement to determine if the weight is under the max weight and more than 0
+//        we use the or || condition to check if either if these is the case
+        if (weight > MAX_WEIGHT || weight <= 0) {
+//            if the package is either too heavy or 0 we return false
+            return false;
+        } else {
+//            if the package is within the weight parameters we return true
+            return true;
+        }
     }
     
     
@@ -67,7 +75,23 @@ public class Question_5_Parcel_Delivery {
         // For example, for a 15 pound parcel, the weight variable will be 15. The price rate is 1.55 per pound (up to and including 20 pounds)
         // So the price is 15 * 1.55 = 23.25.
 
-        return 0;  // Replace this with your code
+//        use an if statement to determine if weight is less than or equal to 10 pounds
+        if (weight <= 10) {
+//            if weight is in first pricing category multiply the weight by price per pound
+            return weight * 2.15;
+//            use else if statement that will run if first condition is not met to check between 11 and 20 pounds
+        } else if (weight <= 20) {
+//            multiply weight by appropriate price per pound
+            return weight * 1.55;
+//            second else if statement if first two conditions are not met check for packages between 21 and 30
+        } else if (weight <= 30) {
+//            multiple weight by appropriate price per pound
+            return weight * 1.15;
+//            last statement is for any non-valid weight
+        } else {
+//            return 0 for invalid weights
+            return 0;
+        }
 
     }
     

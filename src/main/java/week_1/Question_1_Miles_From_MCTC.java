@@ -34,8 +34,20 @@ public class Question_1_Miles_From_MCTC {
         // Return  "You live more than 10 miles from MCTC" if they live more than 10 miles away,
         // Return  "You live exactly 10 miles from MCTC" if they live exactly 10 miles away,
         // Return  "You live less than 10 miles from MCTC" if they live less than 10 miles away.
-        
-        return null; // TODO delete this line and replace with your code.
+
+//        use an if statement to determine if the input (miles) is over 10
+        if (miles > 10) {
+//            return a statement to display telling the user they live more than 10 miles away
+            return "You live more than 10 miles from MCTC";
+//            use else if to determine if the input (miles) was less than 10
+        } else if (miles < 10) {
+//            return a statement to display telling the user they live less than 10 miles away
+            return "You live less than 10 miles from MCTC";
+//            lastly, use an else statement to run if the input (miles) is exactly 10
+        } else {
+//            return a statement to display telling the user they live less than 10 miles away
+            return "You live exactly 10 miles from MCTC";
+        }
     }
     
     

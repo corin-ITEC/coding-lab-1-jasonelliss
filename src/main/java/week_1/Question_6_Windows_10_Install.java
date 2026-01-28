@@ -45,9 +45,20 @@ public class Question_6_Windows_10_Install {
         // Return true if the computer can be upgraded
         // Return false if the computer can't be upgraded.
 
-        // TODO remove this line, and replace with your own code.
-        return false;
+//        use if statement to check conditions
+//        we can use the OR method to check for either windows 7 or windows 8 first
+//        I used equalsIgnoreCase in case someone does not capitalize Windows
+//        once either of those strings have been matched we can move on to make sure processorSpeed is greater than
+//        or equal to 1 and the ram is greater than or equal to 2
+        if (((currentOS.equalsIgnoreCase("Windows 7") ||
+                (currentOS.equalsIgnoreCase("Windows 8"))) && processorSpeed >= 1 && ram >= 2)) {
+//            only once all required conditions have been met can we return true to the main function
+            return true;
+//            if any other string was entered or there is not enough processing speed or ram we return false
+        } else {
+            return false;
+
+        }
 
     }
-    
 }

@@ -43,11 +43,17 @@ public class Question_3_NASA_Astronauts {
         // return true if the user meets these qualifications
         // return false otherwise
 
-        // TODO remove this line and replace with your own code
+//        create if statement with the double ampersand to determine if all conditions have been met for height
+//        and swimming distance
+        if (height >= 58 && height <= 76 && swimDistance >= 75) {
+//            if all conditions are met, return true to main function
+            return true;
+        } else {
+//            if any of the conditions are not met, return false to the main function
+            return false;
 
-        return false;
 
+        }
 
     }
-
 }
